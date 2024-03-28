@@ -1,0 +1,67 @@
+<html lang="en" data-framework="es6">
+  <head>
+    <meta charset="utf-8">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="todoapp">
+      <header>
+        <h1 >Задачи</h1>
+        <input class="new-todo" placeholder="Что должно быть сделано?">
+      </header>
+      <main class="main">
+        <ul class="todo-list">
+          <li>
+            <div class="view">
+              <input class="toggle" type="checkbox">
+              <label>
+                <span class="description">Учить React 4 часа</span>
+                <span class="created">создана 3 дня назад</span>
+              </label>
+              <button class="icon icon-edit"></button>
+              <button class="icon icon-destroy"></button>
+            </div>
+          </li>
+          <li>
+            <div class="view">
+              <input class="toggle" type="checkbox">
+              <label>
+                <span class="description">Учить React 4 часа</span>
+                <span class="created">создана 3 дня назад</span>
+              </label>
+              <button class="icon icon-edit"></button>
+              <button class="icon icon-destroy"></button>
+            </div>
+          </li>
+          <li>
+            <div class="view">
+              <input class="toggle" type="checkbox">
+              <label>
+                <span class="description">Учить React 4 часа</span>
+                <span class="created">создана 3 дня назад</span>
+              </label>
+              <button class="icon icon-edit"></button>
+              <button class="icon icon-destroy"></button>
+            </div>
+          </li>
+        </ul>
+        <footer class="footer">
+          <span class="todo-count">Осталось: 3</span>
+          <ul class="filters">
+            <li>
+              <button class="selected">Все</button>
+            </li>
+            <li>
+              <button>Активные</button>
+            </li>
+            <li>
+              <button>Готовые</button>
+            </li>
+          </ul>
+          <button class="clear-completed">Удалить готовые</button>
+        </footer>
+      </main>
+    </section>
+  </body>
+</html>
