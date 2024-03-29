@@ -216,15 +216,18 @@ body {
 
 .todo-list li .icon {
 	position: absolute;
-	top: 0;
-	bottom: -3px;
+	top: 50%;
 	width: 30px;
 	height: 40px;
 	font-size: 34px;
 	color: #cc9a9a;
-	margin: auto 0 11px;
 	transition: color 0.2s ease-out;
 	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	transform: translateY(-50%);
 }
 
 .todo-list li .icon:hover {
@@ -233,19 +236,12 @@ body {
 
 .todo-list li .icon-destroy {
 	right: 10px;
-}
 
-.todo-list li .icon-destroy:after {
-	content: '×';
 }
 
 .todo-list li .icon-edit {
-	font-size: 19px;
 	right: 45px;
-}
 
-.todo-list li .icon-edit:after {
-	content: '✎';
 }
 
 .todo-list li .edit {
